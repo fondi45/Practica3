@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="contacto">
+        <form action="">
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+            <label for="mensaje">Mensaje</label>
+            <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+            <input class="boton" type="submit" value="Enviar">
+        </form>
+    </div>
+    
+    Codigo CSS para el formulario
+    
+    .contacto{
+        width: 90%;
+        margin: 15px auto;
+        background: #a7a6a6;
+        padding: 10px;
+        border-radius: 15px;
+    }
+    
+    form label{
+        display: block;
+        margin: 10px;
+        color: white;
+    }
+    
+    form input{
+        display: block;
+        margin: 10px;
+}
+
+form .boton{
+    margin: 10px;
+    background: #313131;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 15px;
+}
+    
+</body>
+</html>
