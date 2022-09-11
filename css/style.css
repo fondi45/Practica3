@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: aquamarine;
+}
+
 ul{
     background-color: #00ffff;
     margin: 0;
@@ -40,4 +46,17 @@ div h1{
 
 div section{
     margin: 10px 20px;
+}
+
+section h2{
+    color: #ffff00;
+    font-size: 30px;
+}
+
+section h3{
+    color: darkgoldenrod;
+}
+
+section p{
+    font-size: 20px;
 }
