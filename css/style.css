@@ -24,3 +24,20 @@ li a:hover{
 .menuActivo{
     background-color: #ffff00;
 }
+
+div{
+    margin: 5px;
+    width: 80% auto;
+    background-color: aquamarine;
+    color: darkred;
+}
+
+div h1{
+    color: springgreen;
+    text-align: center;
+    font-size: 40px;
+}
+
+div section{
+    margin: 10px 20px;
+}
