@@ -1,3 +1,27 @@
 ul{
-    background-color: aqua;
+    background-color: #00ffff;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+ul li{
+    list-style-type: none;
+    float: left;
+}
+
+li a{
+    color: #98fb98;
+    display: block;
+    padding: 16px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.menuActivo{
+    background-color: #ffff00;
 }
